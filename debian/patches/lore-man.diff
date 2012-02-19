@@ -1,0 +1,13 @@
+--- twisted-lore-10.1.0.orig/doc/man/lore.1
++++ twisted-lore-10.1.0/doc/man/lore.1
+@@ -55,8 +55,8 @@
+ .TP
+ \fI--config\fR
+ Add input/output-specific information. 
+-HTML output allows for 'ext=<extension>',
+-'template=<template>' and 'baseurl=<format string for API URLs>'. LaTeX
++HTML output allows for 'ext=<extension>', 'template=<template>'
++and 'baseurl=<format string for API URLs>'. LaTeX
+ output allows for 'section' or 'chapter' in Lore, and nothing in Math-Lore. 
+ Lore output allows for 'ext=<extension>'. Lint output allows nothing.
+ Note that disallowed \fI--config\fR options are merely ignored, and do

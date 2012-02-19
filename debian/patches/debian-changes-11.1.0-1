@@ -1,0 +1,128 @@
+Description: Upstream changes introduced in version 11.1.0-1
+ This patch has been created by dpkg-source during the package build.
+ Here's the last changelog entry, hopefully it gives details on why
+ those changes were made:
+ .
+ twisted-lore (11.1.0-1) unstable; urgency=low
+ .
+   * New upstream release.
+ .
+ The person named in the Author field signed this changelog entry.
+Author: Matthias Klose <doko@debian.org>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- twisted-lore-11.1.0.orig/README
++++ twisted-lore-11.1.0/README
+@@ -1,3 +1,3 @@
+-Twisted Lore 11.1.0
++Twisted Lore 12.0.0
+ 
+ Twisted Lore depends on Twisted and Twisted Web.
+--- twisted-lore-11.1.0.orig/NEWS
++++ twisted-lore-11.1.0/NEWS
+@@ -1,6 +1,12 @@
+ Ticket numbers in this file can be looked up by visiting
+ http://twistedmatrix.com/trac/ticket/<number>
+ 
++Twisted Lore 12.0.0 (2012-02-10)
++================================
++
++No significant changes have been made for this release.
++
++
+ Twisted Lore 11.1.0 (2011-11-15)
+ ================================
+ 
+--- twisted-lore-11.1.0.orig/LICENSE
++++ twisted-lore-11.1.0/LICENSE
+@@ -1,4 +1,4 @@
+-Copyright (c) 2001-2011
++Copyright (c) 2001-2012
+ Allen Short
+ Andy Gayton
+ Andrew Bennetts
+--- twisted-lore-11.1.0.orig/doc/index.html
++++ twisted-lore-11.1.0/doc/index.html
+@@ -20,6 +20,6 @@ Twisted Lore</li>
+ </div>
+ 
+     <p><a href="howto/index.html">Index</a></p>
+-    <span class="version">Version: 11.1.0</span>
++    <span class="version">Version: 12.0.0</span>
+   </body>
+ </html>
+\ No newline at end of file
+--- twisted-lore-11.1.0.orig/doc/examples/index.html
++++ twisted-lore-11.1.0/doc/examples/index.html
+@@ -17,6 +17,6 @@
+ </div>
+ 
+     <p><a href="../howto/index.html">Index</a></p>
+-    <span class="version">Version: 11.1.0</span>
++    <span class="version">Version: 12.0.0</span>
+   </body>
+ </html>
+\ No newline at end of file
+--- twisted-lore-11.1.0.orig/doc/man/lore-man.html
++++ twisted-lore-11.1.0/doc/man/lore-man.html
+@@ -119,6 +119,6 @@ warranty; not even for MERCHANTABILITY o
+ </div>
+ 
+     <p><a href="../howto/index.html">Index</a></p>
+-    <span class="version">Version: 11.1.0</span>
++    <span class="version">Version: 12.0.0</span>
+   </body>
+ </html>
+\ No newline at end of file
+--- twisted-lore-11.1.0.orig/doc/howto/lore.html
++++ twisted-lore-11.1.0/doc/howto/lore.html
+@@ -364,6 +364,6 @@ EMACS, but it has not been done yet.</p>
+ </div>
+ 
+     <p><a href="index.html">Index</a></p>
+-    <span class="version">Version: 11.1.0</span>
++    <span class="version">Version: 12.0.0</span>
+   </body>
+ </html>
+\ No newline at end of file
+--- twisted-lore-11.1.0.orig/doc/howto/index.html
++++ twisted-lore-11.1.0/doc/howto/index.html
+@@ -18,6 +18,6 @@
+ </div>
+ 
+     <p><a href="index.html">Index</a></p>
+-    <span class="version">Version: 11.1.0</span>
++    <span class="version">Version: 12.0.0</span>
+   </body>
+ </html>
+\ No newline at end of file
+--- twisted-lore-11.1.0.orig/doc/howto/extend-lore.html
++++ twisted-lore-11.1.0/doc/howto/extend-lore.html
+@@ -422,6 +422,6 @@ making these simple changes:</p>
+ </div>
+ 
+     <p><a href="index.html">Index</a></p>
+-    <span class="version">Version: 11.1.0</span>
++    <span class="version">Version: 12.0.0</span>
+   </body>
+ </html>
+\ No newline at end of file
+--- twisted-lore-11.1.0.orig/twisted/lore/_version.py
++++ twisted-lore-11.1.0/twisted/lore/_version.py
+@@ -1,3 +1,3 @@
+ # This is an auto-generated file. Do not edit it.
+ from twisted.python import versions
+-version = versions.Version('twisted.lore', 11, 1, 0)
++version = versions.Version('twisted.lore', 12, 0, 0)
